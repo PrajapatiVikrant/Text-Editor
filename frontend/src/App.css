@@ -1,0 +1,125 @@
+.myctn{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 100vh;
+  background-color: black;
+  overflow: auto;
+
+}
+.fileCtn{
+  border: 2px solid black;
+  padding: 17px;
+  overflow: auto;
+}
+.dataCtn{
+  border: 0.3px solid rgb(126, 111, 111);
+  padding: 35px;
+  overflow: auto;
+}
+.filename{
+  width: 150px;
+  font-size: 20px;
+  margin-top: 50px;
+  background-color: black;
+  color: rgb(126, 111, 111);
+  border: 0.3px solid rgb(126, 111, 111);
+  outline: none;
+  padding: 10px;
+  overflow: auto;
+}
+.filename:hover{
+  outline: none;
+  border: 0.3px solid rgb(126, 111, 111);
+}
+.fileinput{
+  display: flex;
+}
+.create{
+  background-color: black;
+  color: aliceblue;
+  border: none;
+  outline: none;
+  font-size: 40px;
+  margin-top: 60px;
+  cursor: pointer;
+  padding:5px 17px;
+}
+
+li{
+  list-style: none;
+  
+}
+.file{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px;
+  margin: 2px;
+  border: 0.2px solid rgb(126, 111, 111);;
+  color: rgb(126, 111, 111);;
+  font-size: 20px;
+}
+.file:hover{
+  border: 2px solid white;
+  color: white;
+  font-size: 25px;
+}
+.textinput{
+  width: 973px;
+  height: 50vh;
+  background-color: black;
+  color: aliceblue;
+  font-size: 20px;
+  padding: 20px;
+}
+.openfile{
+  display: flex;
+  font-size: 30px;
+  width: auto;
+  background-color: rgb(54, 50, 50);
+}
+.cfilenames{
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+  color: aliceblue;
+  align-items: center;
+  background-color: black;
+  margin: 4px;
+  border-radius: 40px;
+}
+.cfilenames:hover{
+  background-color: white;
+  color: rgb(80, 72, 72);
+}
+.cfile{
+  padding: 5px 18px;
+  display: flex;
+  align-items: center;
+}
+.cross{
+  padding: 5px 8px;
+}
+
+.crructn{
+  display: flex;
+  justify-content: space-between;
+  padding:10px;
+  color: aliceblue;
+  font-size: 40px;
+  padding: 20px;
+}
+.saveF{
+  background-color: chocolate;
+  padding: 8px 14px;
+  font-size: 26px;
+  border: 1px solid wheat;
+  border-radius: 9px;
+  cursor: pointer;
+  color: aliceblue;
+}
+.saveF:hover{
+  background-color: rgb(224, 165, 123);
+  font-weight: 600;
+}
